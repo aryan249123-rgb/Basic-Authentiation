@@ -1,0 +1,1486 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "RcJgA",
+      "x": 0,
+      "y": 0,
+      "name": "La Ferrari Website",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "d2ZSR5",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 80,
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "U8yTEq",
+              "name": "Logo",
+              "fill": "$text-primary",
+              "content": "LaFerrari",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "600",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "frame",
+              "id": "HWS7q",
+              "name": "Nav Links",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vqNws",
+                  "name": "Heritage",
+                  "fill": "$text-secondary",
+                  "content": "Heritage",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "g7Q1GA",
+                  "name": "Engineering",
+                  "fill": "$text-secondary",
+                  "content": "Engineering",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "vho3A",
+                  "name": "Gallery",
+                  "fill": "$text-secondary",
+                  "content": "Gallery",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "pVXwy",
+                  "name": "Contact",
+                  "fill": "$text-secondary",
+                  "content": "Contact",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BzTWa",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 900,
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 64,
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jh2gN",
+              "name": "Hero Top",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tDQUr",
+                  "name": "Hero Label",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "h4ake",
+                      "name": "Accent Line",
+                      "fill": "$accent",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "BRjow",
+                      "name": "Label Text",
+                      "fill": "$text-secondary",
+                      "content": "HY-KERS SERIES",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "S44qqW",
+                  "name": "Year",
+                  "fill": "$text-secondary",
+                  "content": "2013 — 2018",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WyrDG",
+              "name": "Hero Headline",
+              "width": 900,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i3WGTg",
+                  "name": "Main Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 900,
+                  "content": "The apex of automotive obsession.",
+                  "lineHeight": 0.95,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": -3
+                },
+                {
+                  "type": "text",
+                  "id": "r4dFh9",
+                  "name": "Subheadline",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "A limited-series hypercar where hybrid technology meets primal V12 engineering.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-body",
+                  "fontSize": 20
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FhavI",
+              "name": "Hero Image Frame",
+              "clip": true,
+              "width": "fill_container",
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1782408046237.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 4
+            },
+            {
+              "type": "frame",
+              "id": "a8NCw",
+              "name": "Hero Stats",
+              "width": "fill_container",
+              "gap": 64,
+              "padding": [
+                32,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VuvHO",
+                  "name": "TOTAL HP Stat",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ryXf2",
+                      "name": "Value",
+                      "fill": "$text-primary",
+                      "content": "963",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 40,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J2UZj",
+                      "name": "Label",
+                      "fill": "$text-secondary",
+                      "content": "TOTAL HP",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EFli4",
+                  "name": "0-100 KM/H Stat",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hQYHH",
+                      "name": "Value",
+                      "fill": "$text-primary",
+                      "content": "<2.9s",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 40,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xZma1",
+                      "name": "Label",
+                      "fill": "$text-secondary",
+                      "content": "0-100 KM/H",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cs9EB",
+                  "name": "TOP SPEED KM/H Stat",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LAwJC",
+                      "name": "Value",
+                      "fill": "$text-primary",
+                      "content": "350",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 40,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SOHuK",
+                      "name": "Label",
+                      "fill": "$text-secondary",
+                      "content": "TOP SPEED KM/H",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ohbn8",
+          "name": "Heritage Section",
+          "width": "fill_container",
+          "gap": 80,
+          "padding": [
+            120,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "J4zR1P",
+              "name": "Heritage Content",
+              "width": 560,
+              "layout": "vertical",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PqnIV",
+                  "name": "Heritage Header",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uLvFg",
+                      "name": "Heritage Label",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "JuVzU",
+                          "name": "Accent Line",
+                          "fill": "$accent",
+                          "width": 40,
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "tEnSY",
+                          "name": "Label Text",
+                          "fill": "$text-secondary",
+                          "content": "HERITAGE",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WPpfR",
+                      "name": "Heritage Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 560,
+                      "content": "Born from racing DNA.",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 56,
+                      "fontWeight": "600",
+                      "letterSpacing": -1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "U0yBy",
+                  "name": "Heritage Body",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Unveiled at the 2013 Geneva Motor Show, LaFerrari represents Ferrari's first foray into hybrid hypercar technology. The name itself — simply 'LaFerrari' — was chosen to signify the definitive Ferrari, a car that embodies everything the marque stands for.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "A2R7h9",
+                  "name": "Heritage Body 2",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "With only 499 coupés and 210 Apertas ever produced, ownership transcends acquisition. It is entry into one of motorsport's most exclusive circles.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17
+                },
+                {
+                  "type": "frame",
+                  "id": "x4x2sW",
+                  "name": "Heritage Quote",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "DbIoZ",
+                      "name": "Quote Border",
+                      "fill": "$accent",
+                      "width": 2,
+                      "height": 120
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HFeWb",
+                      "name": "Quote Text Group",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HLXux",
+                          "name": "Quote Text",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 480,
+                          "content": "We chose to call this model LaFerrari because it is the maximum expression of what defines our company.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 24,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LkK91",
+                          "name": "Quote Author",
+                          "fill": "$text-secondary",
+                          "content": "— Luca di Montezemolo",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YwzRU",
+              "name": "Heritage Image",
+              "clip": true,
+              "width": 600,
+              "height": 720,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1782408076518.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lHtux",
+          "name": "Specs Section",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            120,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "cAQpr",
+              "name": "Specs Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XYghi",
+                  "name": "Specs Label",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "yRqSd",
+                      "name": "Accent Line",
+                      "fill": "$accent",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "dh4hU",
+                      "name": "Label Text",
+                      "fill": "$text-secondary",
+                      "content": "ENGINEERING",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "HHQ0T",
+                  "name": "Specs Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Numbers that defy physics.",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 56,
+                  "fontWeight": "600",
+                  "letterSpacing": -1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oHLDb",
+              "name": "Specs Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AIPqb",
+                  "name": "Spec Row 0",
+                  "width": "fill_container",
+                  "height": 96,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WMw1G",
+                      "name": "Spec Cell 0",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qxGSi",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "Engine",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "mQYri",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "6.3L V12 + electric motor",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qfq5B",
+                      "name": "Spec Cell 1",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f5VLI",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "Total output",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "jObQ0",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "963 CV / 800 Nm",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "c7cx06",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 95,
+                      "name": "Row Divider",
+                      "fill": "$border",
+                      "width": 1312,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P5cJrd",
+                  "name": "Spec Row 1",
+                  "width": "fill_container",
+                  "height": 96,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u194X",
+                      "name": "Spec Cell 2",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hagWA",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "Powertrain",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "oMcyl",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "HY-KERS hybrid system",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z1XxML",
+                      "name": "Spec Cell 3",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MxSFW",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "Transmission",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "pZLu7",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "7-speed DCT",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "uYovi",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 95,
+                      "name": "Row Divider",
+                      "fill": "$border",
+                      "width": 1312,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F0NFf",
+                  "name": "Spec Row 2",
+                  "width": "fill_container",
+                  "height": 96,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t7gRz",
+                      "name": "Spec Cell 4",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G6IcRu",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "Weight",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "JKJbJ",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "1,255 kg dry",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k0Pf1",
+                      "name": "Spec Cell 5",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XGYzH",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "0-200 km/h",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "v2WhN",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "Under 7 seconds",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "l0jyHT",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 95,
+                      "name": "Row Divider",
+                      "fill": "$border",
+                      "width": 1312,
+                      "height": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pxx52",
+                  "name": "Spec Row 3",
+                  "width": "fill_container",
+                  "height": 96,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qY2TA",
+                      "name": "Spec Cell 6",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EQwmA",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "Downforce",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "u4x5a",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "Active aerodynamics",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bY9c4",
+                      "name": "Spec Cell 7",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IkLI5",
+                          "name": "Spec Label",
+                          "fill": "$text-secondary",
+                          "content": "Production",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "Kz0C6",
+                          "name": "Spec Value",
+                          "fill": "$text-primary",
+                          "content": "499 coupés + 210 Apertas",
+                          "fontFamily": "$font-body",
+                          "fontSize": 22,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "f4pc7R",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 95,
+                      "name": "Row Divider",
+                      "fill": "$border",
+                      "width": 1312,
+                      "height": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MkEt0",
+              "name": "Specs Visual",
+              "width": "fill_container",
+              "height": 480,
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "O38xyO",
+                  "name": "Specs Image 2",
+                  "clip": true,
+                  "width": 420,
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1782408124685.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "Jn1r2",
+                  "name": "Specs Image 1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1782408126727.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S9LTG",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            160,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GjT37",
+              "name": "CTA Eyebrow",
+              "fill": "$text-secondary",
+              "content": "BEGIN THE JOURNEY",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "aBEKf",
+              "name": "CTA Title",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Own a chapter of history.",
+              "lineHeight": 1.05,
+              "textAlign": "center",
+              "fontFamily": "$font-heading",
+              "fontSize": 72,
+              "fontWeight": "600",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "z5v45W",
+              "name": "CTA Body",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "For inquiries regarding availability, certified pre-owned LaFerrari models, and concierge acquisition services.",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 17
+            },
+            {
+              "type": "frame",
+              "id": "cMCMi",
+              "name": "CTA Button",
+              "fill": "$accent",
+              "cornerRadius": 2,
+              "gap": 12,
+              "padding": [
+                20,
+                32
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XeZNe",
+                  "name": "Button Text",
+                  "fill": "$text-primary",
+                  "content": "Contact Ferrari Concierge",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H072Mb",
+          "name": "Gallery Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            120,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "VuOkk",
+              "name": "Gallery Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j4uGUN",
+                  "name": "Gallery Title Group",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TEXyM",
+                      "name": "Gallery Label",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "s0wMGs",
+                          "name": "Accent Line",
+                          "fill": "$accent",
+                          "width": 40,
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "hfAm8",
+                          "name": "Label Text",
+                          "fill": "$text-secondary",
+                          "content": "GALLERY",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "bz2Dp",
+                      "name": "Gallery Title",
+                      "fill": "$text-primary",
+                      "content": "Sculpted by speed.",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 56,
+                      "fontWeight": "600",
+                      "letterSpacing": -1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "iw92t",
+                  "name": "Gallery Count",
+                  "fill": "$text-secondary",
+                  "content": "01 / 06",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tWSHk",
+              "name": "Gallery Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OU1Ht",
+                  "name": "Gallery Row 1",
+                  "width": "fill_container",
+                  "height": 420,
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oRQPy",
+                      "name": "Gallery Image 1",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1782408156626.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UdS53",
+                      "name": "Gallery Image 2",
+                      "clip": true,
+                      "width": 520,
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1782408157371.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aqmGZ",
+                  "name": "Gallery Row 2",
+                  "width": "fill_container",
+                  "height": 520,
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M8jOtF",
+                      "name": "Gallery Image 3",
+                      "clip": true,
+                      "width": 520,
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1782408156766.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pXktd",
+                      "name": "Gallery Image 4",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1782408158964.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lgtkp",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 64,
+          "children": [
+            {
+              "type": "frame",
+              "id": "kqHhM",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xFPN7",
+                  "name": "Footer Logo",
+                  "fill": "$text-primary",
+                  "content": "LaFerrari",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "UbqkS",
+                  "name": "Footer Links",
+                  "gap": 48,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "maJBN",
+                      "name": "Explore Group",
+                      "width": 140,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o1iim",
+                          "name": "Explore Title",
+                          "fill": "$text-secondary",
+                          "content": "Explore",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "s3kwK",
+                          "name": "Heritage",
+                          "fill": "$text-primary",
+                          "content": "Heritage",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "R3xUqP",
+                          "name": "Engineering",
+                          "fill": "$text-primary",
+                          "content": "Engineering",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CwSuZ",
+                          "name": "Gallery",
+                          "fill": "$text-primary",
+                          "content": "Gallery",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DFX4k",
+                      "name": "Ownership Group",
+                      "width": 140,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ipwH1",
+                          "name": "Ownership Title",
+                          "fill": "$text-secondary",
+                          "content": "Ownership",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "tYfWm",
+                          "name": "Configure",
+                          "fill": "$text-primary",
+                          "content": "Configure",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fsGjl",
+                          "name": "Service",
+                          "fill": "$text-primary",
+                          "content": "Service",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RRyBR",
+                          "name": "Concierge",
+                          "fill": "$text-primary",
+                          "content": "Concierge",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WFa9I",
+                      "name": "Legal Group",
+                      "width": 140,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K1T0oK",
+                          "name": "Legal Title",
+                          "fill": "$text-secondary",
+                          "content": "Legal",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "GONOK",
+                          "name": "Privacy",
+                          "fill": "$text-primary",
+                          "content": "Privacy",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nLaAD",
+                          "name": "Terms",
+                          "fill": "$text-primary",
+                          "content": "Terms",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "T16mqK",
+                          "name": "Cookies",
+                          "fill": "$text-primary",
+                          "content": "Cookies",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "T9omOv",
+              "name": "Footer Divider",
+              "fill": "$border",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "HBV5q",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UYtSB",
+                  "name": "Copyright",
+                  "fill": "$text-secondary",
+                  "content": "© 2026 Ferrari S.p.A. All rights reserved.",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "S04kb",
+                  "name": "Credit",
+                  "fill": "$text-secondary",
+                  "content": "Designed as a tribute concept.",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#0A0A0A"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#141414"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#F5F5F0"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#737373"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#DC2626"
+    },
+    "accent-hover": {
+      "type": "color",
+      "value": "#B91C1C"
+    },
+    "border": {
+      "type": "color",
+      "value": "#262626"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Playfair Display"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "space-xs": {
+      "type": "number",
+      "value": 8
+    },
+    "space-sm": {
+      "type": "number",
+      "value": 16
+    },
+    "space-md": {
+      "type": "number",
+      "value": 24
+    },
+    "space-lg": {
+      "type": "number",
+      "value": 48
+    },
+    "space-xl": {
+      "type": "number",
+      "value": 80
+    },
+    "space-2xl": {
+      "type": "number",
+      "value": 120
+    }
+  },
+  "fileToken": "c5380a51-bfeb-4937-8771-a717301bb9fa"
+}
